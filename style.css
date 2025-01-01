@@ -1,0 +1,13 @@
+a {text-decoration: none}
+a:link {color: #ffe0c0}
+a:visited {color: #c0e0ff}
+a:hover {bottom: 1px; position: relative; text-decoration: underline}
+a:active {color: #e0e0e0}
+body {background-color: #003060; color: #ffffff}
+.bigtop {font-size: 250%; text-align: center}
+.email {font-family: monospace}
+.endtag {font-size: 60%; font-style: italic; margin-left: 2em}
+.header {font-size: 150%}
+.howdy {font-size: 125%}
+.smalltop {font-size: 150%; text-align: center}
+.url {font-family: monospace}
