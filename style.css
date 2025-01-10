@@ -1,13 +1,83 @@
-a {text-decoration: none}
-a:link {color: #ffe0c0}
-a:visited {color: #c0e0ff}
-a:hover {bottom: 1px; position: relative; text-decoration: underline}
-a:active {color: #e0e0e0}
-body {background-color: #003060; color: #ffffff}
-.bigtop {font-size: 250%; text-align: center}
-.email {font-family: monospace}
-.endtag {font-size: 60%; font-style: italic; margin-left: 2em}
-.header {font-size: 150%}
-.howdy {font-size: 125%}
-.smalltop {font-size: 150%; text-align: center}
-.url {font-family: monospace}
+@charset "UTF-8";
+
+html {
+   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+   box-sizing: inherit;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:link {
+   color: #0000ff;
+}
+
+a:visited {
+   color: #000080;
+}
+
+a:hover {
+   bottom: 1px;
+   position: relative;
+   text-decoration: underline;
+}
+
+a:active {
+   color: #00ff00;
+}
+
+body {
+   background-color: #00c000;
+   background-image: url(hhhbg.gif);
+   color: #000000;
+}
+
+p.yell {
+   font-size: 120%;
+   text-align: center;
+}
+
+.bigtop {
+   font-size: 250%;
+   text-align: center;
+}
+
+.email {
+   font-family: monospace;
+}
+
+.endtag {
+   font-size: 60%;
+   font-style: italic;
+   margin-left: 2em;
+}
+
+.header {
+   font-size: 150%;
+}
+
+.howdy {
+   font-size: 125%;
+}
+
+.smalltop {
+   font-size: 150%;
+   text-align: center;
+}
+
+.url {
+   font-family: monospace;
+}
+
+.bigger {
+   font-size: 300%;
+}
+
+.smaller {
+   font-size: 75%;
+   font-style: italic;
+}
