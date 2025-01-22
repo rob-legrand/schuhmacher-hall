@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+a:link {
+   color: #00ff00;
+}
+
+a:visited {
+   color: #c0ffc0;
+}
+
+a:hover {
+   bottom: 1px;
+   position: relative;
+   text-decoration: underline;
+}
+
+a:active {
+   color: #ffffff;
+}
+
+body {
+   background-color: #808080;
+   background-image: none;
+   color: #ffffff;
+}
