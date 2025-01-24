@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 a:link {
-   color: #00ff00;
+   color: rgb(0, 255, 0);
 }
 
 a:visited {
-   color: #c0ffc0;
+   color: rgb(192, 255, 192);
 }
 
 a:hover {
@@ -15,11 +15,11 @@ a:hover {
 }
 
 a:active {
-   color: #ffffff;
+   color: rgb(255, 255, 255);
 }
 
 body {
-   background-color: #808080;
+   background-color: rgb(128, 128, 128);
    background-image: none;
-   color: #ffffff;
+   color: rgb(255, 255, 255);
 }
