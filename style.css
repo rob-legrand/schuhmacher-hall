@@ -53,6 +53,20 @@ table {
    text-align: center;
 }
 
+.content {
+   align-items: stretch;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.content .images {
+   align-items: end;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
 .email {
    font-family: monospace;
 }
