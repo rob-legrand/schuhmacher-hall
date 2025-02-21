@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root {
+   --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
+}
+
 html {
    box-sizing: border-box;
 }
@@ -34,6 +38,7 @@ body {
    background-color: rgb(0, 192, 0);
    background-image: url(hhhbg.gif);
    color: rgb(0, 0, 0);
+   font-family: serif;
 }
 
 .bigger {
@@ -64,7 +69,7 @@ body {
 }
 
 .email {
-   font-family: monospace;
+   font-family: var(--monospace);
 }
 
 .footer {
