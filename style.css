@@ -67,12 +67,6 @@ body {
    font-family: monospace;
 }
 
-.endtag {
-   font-size: 60%;
-   font-style: italic;
-   margin-left: 2em;
-}
-
 .footer {
    align-items: center;
    display: flex;
@@ -89,14 +83,6 @@ body {
    border-width: 1px;
 }
 
-.header {
-   font-size: 150%;
-}
-
-.howdy {
-   font-size: 125%;
-}
-
 .left {
    float: left;
 }
@@ -108,15 +94,6 @@ body {
 .smaller {
    font-size: 75%;
    font-style: italic;
-}
-
-.smalltop {
-   font-size: 150%;
-   text-align: center;
-}
-
-.url {
-   font-family: monospace;
 }
 
 .yell {
