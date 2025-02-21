@@ -103,5 +103,6 @@ body {
 
 .yell {
    font-size: 120%;
+   font-style: italic;
    text-align: center;
 }
