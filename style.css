@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url(/fonts/fonts.css);
+
 :root {
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
 }
