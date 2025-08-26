@@ -3,7 +3,9 @@
 @import url(/fonts/fonts.css);
 
 :root {
+   --block: Helvetica, Arial, Roboto, Geneva, Overpass, sans-serif;
    --monospace: Inconsolata, Consolas, "Andale Mono", AndaleMono, monospace;
+   --serif: "Times New Roman", Palatino, "Palatino Linotype", Gentium, Didot, serif;
 }
 
 html {
@@ -40,11 +42,12 @@ body {
    background-color: rgb(0, 192, 0);
    background-image: url(hhhbg.gif);
    color: rgb(0, 0, 0);
-   font-family: serif;
+   font-family: var(--serif);
 }
 
 .bigger {
    font-size: 300%;
+   font-variant: small-caps;
 }
 
 .bigtop {
@@ -78,6 +81,8 @@ body {
    align-items: center;
    display: flex;
    flex-direction: row;
+   font-family: var(--block);
+   font-weight: bold;
    justify-content: space-between;
 }
 
